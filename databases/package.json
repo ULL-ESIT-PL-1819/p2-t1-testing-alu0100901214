@@ -1,0 +1,22 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch --reporter min"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
