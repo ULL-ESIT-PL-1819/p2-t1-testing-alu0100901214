@@ -49,21 +49,21 @@ Esto nos creara una carpeta cache con todos los archivos rdf.
 - Primero crearemos la carpeta de '/test' con #mkdir y inicializamos dentro el archivo parse-rdf-test.js .
 - Dentro de parse-rdf-test.js añadimos lo siguiente:
 
-![ini](./img2/packageJsonInicial.PNG)
+![function](./img2/function.PNG)
 
 - Ahora podemos ver que dicho test nos falla, puesto que no hemos definido la función parseRDF correctamente: 
 
 #npm test
 
-![ini](./img2/packageJsonInicial.PNG)
+![failed](./img2/failed.PNG)
 
 - Creamos la carpeta '/lib' y inicializamos el fichero 'parse-rdf.js' donde declararemos los objetos necesarios para que nuestro test funcione correctamente:
 
-![ini](./img2/packageJsonInicial.PNG)
+![lib](./img2/lib.PNG)
 
 - Realizando #npm test una vez mas, comprobaremos que nuestras expectativas funcionan correctamente:
 
-![ini](./img2/packageJsonInicial.PNG)
+![npm-test](./img2/npm-test.PNG)
 
 ## Hacer que los test se ejecuten continuamente
 
