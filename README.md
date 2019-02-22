@@ -2,4 +2,4 @@
 p2-t1-testing-alu0100901214 created by GitHub Classroom
 
 
-https://travis-ci.org/ULL-ESIT-PL-1819/p2-t1-testing-alu0100836400.svg?branch=master
+[![Build Status](https://travis-ci.org/ULL-ESIT-PL-1819/p2-t1-testing-alu0100836400.svg?branch=master)](https://travis-ci.org/ULL-ESIT-PL-1819/p2-t1-testing-alu0100836400)
