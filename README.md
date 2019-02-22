@@ -30,12 +30,16 @@ Esto nos creara una carpeta cache con todos los archivos rdf.
 
 - Uno de los primeros ficheros fuente que necesitaremos sera el package.json, lo inicializaremos con el siguiente código: 
 
+![ini](./img2/packageJsonInicial.PNG)
+
 - Instalamos chai para realizar los expect y mocha para los test y seguir la metodología TDD dentro de '/database':
 
   #npm init -y
   #npm install --save-dev --save-exact mocha@2.4.5 chai@3.5.0
   
 - En la sección 'scripts' del package.json añadimos lo siguiente:
+
+![scriptMocha](./img2/scriptMocha.PNG)
 
 - Ahora la entrada de los test invocaran a mocha.
 
