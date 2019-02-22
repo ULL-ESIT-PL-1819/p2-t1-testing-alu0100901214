@@ -35,11 +35,39 @@ Esto nos creara una carpeta cache con todos los archivos rdf.
 - Instalamos chai para realizar los expect y mocha para los test y seguir la metodología TDD dentro de '/database':
 
   #npm init -y
+  
   #npm install --save-dev --save-exact mocha@2.4.5 chai@3.5.0
   
-- En la sección 'scripts' del package.json añadimos lo siguiente:
+- Añadimos una 'scripts' del package.json con lo siguiente:
 
 ![scriptMocha](./img2/scriptMocha.PNG)
 
 - Ahora la entrada de los test invocaran a mocha.
+
+## /Test y /Lib
+
+- Primero crearemos la carpeta de '/test' con #mkdir y inicializamos dentro el archivo parse-rdf-test.js .
+- Dentro de parse-rdf-test.js añadimos lo siguiente:
+
+![ini](./img2/packageJsonInicial.PNG)
+
+- Ahora podemos ver que dicho test nos falla, puesto que no hemos definido la función parseRDF correctamente: 
+
+#npm test
+
+![ini](./img2/packageJsonInicial.PNG)
+
+- Creamos la carpeta '/lib' y inicializamos el fichero 'parse-rdf.js' donde declararemos los objetos necesarios para que nuestro test funcione correctamente:
+
+![ini](./img2/packageJsonInicial.PNG)
+
+- Realizando #npm test una vez mas, comprobaremos que nuestras expectativas funcionan correctamente:
+
+![ini](./img2/packageJsonInicial.PNG)
+
+## Hacer que los test se ejecuten continuamente
+
+## Cheerio
+
+## Debugging test con Chrome DevTools
 
