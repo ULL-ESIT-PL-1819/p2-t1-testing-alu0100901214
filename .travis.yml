@@ -4,4 +4,4 @@ node_js:
 npm:
  - 6.5.0
 
-script: npm test
+script: npm test --prefix databases
