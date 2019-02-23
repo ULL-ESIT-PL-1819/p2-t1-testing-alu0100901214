@@ -1,7 +1,7 @@
 ## p2-t1-testing-alu0100901214
 ### Sergio González Guerra   alu0100910214
 
-[![Build Status](https://travis-ci.com/ULL-ESIT-PL-1819/p2-t1-testing-alu0100901214.svg?token=U9QnzzMgdn3CWHzsjf6C&branch=master)](https://travis-ci.com/ULL-ESIT-PL-1819/p2-t1-testing-alu0100901214)
+[![Build Status](https://travis-ci.com/ULL-ESIT-PL-1819/p2-t1-testing-alu0100901214.svg?branch=master)](https://travis-ci.com/ULL-ESIT-PL-1819/p2-t1-testing-alu0100901214)
 
 # Tutorial practica 2
 
