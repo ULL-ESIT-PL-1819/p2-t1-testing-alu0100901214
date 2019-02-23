@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  - 10.5.0
+  - 11.9.0
 npm:
- - 6.1.0
+ - 6.5.0
 
 script: npm test --prefix databases
