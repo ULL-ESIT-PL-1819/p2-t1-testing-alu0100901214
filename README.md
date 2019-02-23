@@ -67,7 +67,15 @@ Esto nos creara una carpeta cache con todos los archivos rdf.
 
 ## Hacer que los test se ejecuten continuamente
 
-## Cheerio
+- Podemos aumentar la rapidez en la que ejecutamos los tests haciendo que se ejecuten continuamente en lugar de invocar #npm test cada vez.
+
+- Para ello añadiremos otro script en el archivo package.json con lo siguiente:
+
+![test-watch](./img2/test-watch.PNG)
+
+- Ahora tan solo tendremos que ejecutar en una terminal aparte #npm run test:watch y se ejecutara automáticamente #npm test cada vez que modifiquemos un archivo.
+
+## Extraer datos de XML con Cheerio
 
 ## Debugging test con Chrome DevTools
 
