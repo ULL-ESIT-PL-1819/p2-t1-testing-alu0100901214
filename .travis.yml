@@ -1,15 +1,9 @@
 language: node_js
 node_js:
-  - "stable"
-  - "unstable"
-  - "6"
-  - "4"
-  - "0.12"
-script: make travis-test
-matrix:
-  fast_finish: true
-  allow_failures:
-    - node_js: unstable
-  include:
-    - env: BENCHMARK=true
-      script: "node benchmark/benchmark.js --regex '^(?!.*highmem)'"
+  - 11.9.0
+npm:
+ - 6.5.0
+nvm:
+ - 0.33..8
+before_install:
+  - cd databases
