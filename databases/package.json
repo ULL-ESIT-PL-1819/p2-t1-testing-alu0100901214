@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch --reporter min",
+    "test:debug": "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "dependencies": {
+    "cheerio": "^0.20.0",
     "node-dir": "0.1.16"
   },
   "devDependencies": {
     "chai": "3.5.0",
     "mocha": "2.4.5"
-  },
-  "scripts": {
-    "test": "mocha",
-    "test:watch": "mocha --watch --reporter min",
-    "test:debug":
-    "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
   },
   "keywords": [],
   "author": "",
