@@ -77,11 +77,31 @@ Esto nos creara una carpeta cache con todos los archivos rdf.
 
 ## Extraer datos de XML con Cheerio
 
+- Primero instalamos con npm.
+
+  #npm install --save --save-exact cheerio@0.22.0
+
+- Ejecutamos los tests continuamente con mocha usando el comando #npm run test:watch
+
+- Modificamos el parse-rdf-test.js del /test para añadir un nuevo expect que detecte la id de un libro:
+
+![expect-id](./img2/expect-id.PNG)
+
+- Nos fallara la terminal de Mocha ya que no tenemos implementado el codigo que incluya el 'id' del objeto 'book'.
+
+- Ahora en 'parse-rdf.js' de /lib añadimos el código necesario para poder identificar el id de un libro y formatearlo:
+
+![book-id](./img2/book-id.PNG)
+
+- Una vez modificado, la terminal de Mocha deberia decirnos que los test funcionan correctamente.
+
 ## Debugging tests con Chrome DevTools
 
 - Es posible unir los DevTools de chrome con Node.js. Aqui podremos hacer breakpoints y esperar variables.
 
 - Primero añadiremos en la sección de scripts del package.json lo siguiente:
+
+![test-debug](./img2/test-debug.PNG)
 
 - Ahora ejecutamos el comando #npm run test:debug
 
