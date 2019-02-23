@@ -77,5 +77,28 @@ Esto nos creara una carpeta cache con todos los archivos rdf.
 
 ## Extraer datos de XML con Cheerio
 
-## Debugging test con Chrome DevTools
+## Debugging tests con Chrome DevTools
+
+- Es posible unir los DevTools de chrome con Node.js. Aqui podremos hacer breakpoints y esperar variables.
+
+- Primero añadiremos en la sección de scripts del package.json lo siguiente:
+
+- Ahora ejecutamos el comando #npm run test:debug
+
+- Abrimos chrome y entramos en la URL especial  'chrome://inspect' y nos aparecera en la página de dispositivos de Chrome DevTools:
+
+![chromeDebugger](./img2/chromeDebugger.PNG)
+
+- En Remote Target, seleccionamos el link azul 'inspect'
+
+- Y nos abrira los Devtools:
+
+![DevTools](./img2/DevTools.PNG)
+
+- Aqui podemos ir a la sección de 'Sources', abrir algun archivo y establecer breakpoints:
+
+![breakpoint1](./img2/breakpoint1.PNG)
+
+- Como Mocha esta ejecutando continuamente los tests, cada vez que cambie el fichero, ejecutara los test mirando los breakpoints.
+
 
